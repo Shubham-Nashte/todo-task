@@ -49,7 +49,7 @@ const Index=()=>{
   
   return (
     <div className='container text-center'>
-      <h1 className="mb-5">To-Do List!</h1>
+      <h1 className="mb-5">To-Do App!</h1>
       <TextField id="filled-basic" label="Please Enter New Task" variant="filled" className="me-5 mb-5" onChange={fnHandleTask} value={todo}/>
       <button className="btn btn-primary mt-3 mb-5" onClick={fnAddTask}>Add Task</button>
       <div className="row">
